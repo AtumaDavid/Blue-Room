@@ -1,0 +1,51 @@
+.error {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+
+
+.error-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.error-heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.error-heading h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #E03F3F;}
+
+.errorLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+
+.btnDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.btn h2 {
+    font-size: 14px;
+}
+
+.btnIcon{
+    display: flex;
+    float: right;
+    font-size: 20px;
+    align-content: center;
+}

@@ -1,0 +1,102 @@
+.topNav{
+    border: hidden;
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.topNav-header{
+    justify-content: center;
+    display: flex;
+    float: left;
+    width: 95%;
+    
+}
+
+.topNav-back{
+    font-size: 40px;
+    cursor: pointer;
+    align-items: center;
+    
+}
+
+.topNav-back:hover{
+    color: var(--color-primary);
+}
+
+.fav{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.info{
+    margin-top: 40px;
+    border: hidden;
+    border-radius: 6px;
+    height: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem;
+}
+
+.infoHeader{
+    color: var(--color-primary);
+}
+
+.infoPrice{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+
+.infoPrice h5{
+    font-weight: 400;
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
+.infoList{
+    margin-top: 3rem;
+}
+
+.infoList li{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+    align-items: center;
+}
+
+.infoIcon{
+   color: var(--color-primary);
+   margin-top: 1px;
+}
+.btnDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.btn h2{
+    font-size: 14px;
+}
+
+.btnIcon {
+    display: flex;
+    float: right;
+    font-size: 20px;
+    align-content: center;
+}
