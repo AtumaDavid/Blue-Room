@@ -1,3 +1,7 @@
+.errorContainer {
+    height: 100%;
+}
+
 .error {
     display: flex;
     justify-content: center;
@@ -11,6 +15,9 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .error-heading {
@@ -43,7 +50,7 @@
     font-size: 14px;
 }
 
-.btnIcon{
+.btnIcon {
     display: flex;
     float: right;
     font-size: 20px;

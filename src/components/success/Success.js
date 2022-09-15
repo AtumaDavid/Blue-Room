@@ -6,7 +6,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Success = () => {
   return (
-    <div>
+    <div className="successContainer">
       <div className="success">
         <img src={fav} alt="" />
       </div>
@@ -20,9 +20,7 @@ const Success = () => {
             <h1>Success</h1>
           </div>
           <div className="success-info">
-            <p>
-              You have successfully subscribed for <br /> Blueroomcare
-            </p>
+            <p>You have successfully subscribed for Blueroomcare</p>
           </div>
         </section>
       </div>

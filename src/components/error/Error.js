@@ -6,7 +6,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Success = () => {
   return (
-    <div>
+    <div className="errorContainer">
       <div className="error">
         <img src={fav} alt="" />
       </div>
@@ -21,7 +21,7 @@ const Success = () => {
           </div>
           <div className="error-info">
             <p>
-              Unfortuantely, your subscription to <br /> blueroom care wasn’t
+              Unfortuantely, your subscription to blueroom care wasn’t
               successful.
             </p>
           </div>

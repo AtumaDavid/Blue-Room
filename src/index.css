@@ -45,13 +45,16 @@ p{
   border-radius: 0.4rem;
   background: var(--color-primary);
   height: 56px;
-  width: 370px;
+  width: 343px;
+  top: 692px;
+  left: 16px;
 }
 
 
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
+  height: fit-content;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVIVES) */
@@ -69,5 +72,4 @@ p{
     width: var(--container-width-sm);
   }
 
-  
 }

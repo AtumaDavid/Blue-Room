@@ -42,10 +42,7 @@ const Payment = () => {
             </li>
             <li>
               <GoPrimitiveDot className="infoIcon" />
-              <p>
-                Switch to any of our 25,000 therapists if <br />
-                needed
-              </p>
+              <p>Switch to any of our 25,000 therapists if needed</p>
             </li>
             <li>
               <GoPrimitiveDot className="infoIcon" />
