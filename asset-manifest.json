@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Blue-Room/static/css/main.726f3051.css",
-    "main.js": "/Blue-Room/static/js/main.f2a91e57.js",
+    "main.css": "/Blue-Room/static/css/main.b33aaa26.css",
+    "main.js": "/Blue-Room/static/js/main.69738ddf.js",
     "static/media/favicon 2.svg": "/Blue-Room/static/media/favicon 2.2d705c1a1a6722ac84b372d16e0bcfaa.svg",
     "static/media/icon-park_unsuccess.svg": "/Blue-Room/static/media/icon-park_unsuccess.707d3552ad5c0ca94df7b38769286325.svg",
     "static/media/icon-park_success.svg": "/Blue-Room/static/media/icon-park_success.eccd3d37c98811ff3f9c78e9c2863822.svg",
     "index.html": "/Blue-Room/index.html",
-    "main.726f3051.css.map": "/Blue-Room/static/css/main.726f3051.css.map",
-    "main.f2a91e57.js.map": "/Blue-Room/static/js/main.f2a91e57.js.map"
+    "main.b33aaa26.css.map": "/Blue-Room/static/css/main.b33aaa26.css.map",
+    "main.69738ddf.js.map": "/Blue-Room/static/js/main.69738ddf.js.map"
   },
   "entrypoints": [
-    "static/css/main.726f3051.css",
-    "static/js/main.f2a91e57.js"
+    "static/css/main.b33aaa26.css",
+    "static/js/main.69738ddf.js"
   ]
 }
