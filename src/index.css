@@ -13,10 +13,6 @@
 :root{
   --color-white: #FFFFFF;
   --color-primary: #3F78E0;
-  
-  --container-width-lg: 75%;
-  --container-width-md: 86%;
-  --container-width-sm: 90%;
 }
 
 body{
@@ -24,52 +20,84 @@ body{
   background: var(--color-white)
 }
 
-h2{
-  font-weight: 700;
-  font-size: 30px;
-}
-
-h3{
-  font-weight: 400;
-  font-size: 14px;
-  color: #585858;
-}
-
-p{
-  color: #6F6F6F;
-}
 
 .btn{
   color: var(--color-white);
   cursor: pointer;
-  border-radius: 0.4rem;
   background: var(--color-primary);
   height: 56px;
-  width: 343px;
-  top: 692px;
-  left: 16px;
+  /* width: 343px; */
+  border: 1px solid;
+  border-radius: 10px;
 }
 
 
-.container {
-  width: var(--container-width-lg);
-  margin: 0 auto;
-  height: fit-content;
-}
-
-/* MEDIA QUERIES (MEDIUM DEVIVES) */
-@media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
-
-  
-}
 
 /* MEDIA QUERIES (SMALL DEVIVES) */
 @media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-sm);
+  .btn h2 {
+      font-size: 14px;
+    }
+
+    .btnIcon {
+        display: flex;
+        float: right;
+        font-size: 20px;
+        align-content: center;
+        margin-right: 30px;
+      }
+}
+
+/* MEDIA QUERIES (MEDIUM DEVIVES) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .btn h2 {
+        font-size: 14px;
+      }
+    
+      .btnIcon {
+        display: flex;
+        float: right;
+        font-size: 20px;
+        align-content: center;
+        margin-right: 30px;
+      }
+ 
+        .btnDiv {
+          display: flex;
+          margin-top: 50px;
+          padding-bottom: 10px;
+        }
+    
+    .btn {
+        width: 50%;
+        margin: 0px auto;
+        /* margin-top: 100px; */
+    }       
+}
+
+/* MEDIA QUERIES (BIG DEVIVES) */
+@media screen and (min-width: 1024px) {
+  .btn h2 {
+    font-size: 14px;
   }
 
+  .btnIcon {
+    display: flex;
+    float: right;
+    font-size: 20px;
+    align-content: center;
+    margin-right: 30px;
+  }
+
+  .btnDiv {
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 10px;
+  }
+
+  .btn {
+    width: 50%;
+    margin: 0px auto;
+    /* margin-top: 100px; */
+  }
 }

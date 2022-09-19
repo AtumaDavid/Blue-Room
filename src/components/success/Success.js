@@ -17,15 +17,15 @@ const Success = () => {
             <img src={success} alt="" />
           </div>
           <div className="success-heading">
-            <h1>Success</h1>
+            <p>Success</p>
           </div>
           <div className="success-info">
             <p>You have successfully subscribed for Blueroomcare</p>
           </div>
         </section>
       </div>
-      <div className="btnDiv">
-        <button className="btn">
+      <div className="btnDiv btnSuccess">
+        <button className="btn ">
           <IoIosArrowForward className="btnIcon" />
           <h2>Back to app</h2>
         </button>

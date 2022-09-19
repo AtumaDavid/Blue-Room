@@ -17,7 +17,7 @@ const Success = () => {
             <img src={error} alt="" />
           </div>
           <div className="error-heading">
-            <h1>Unsuccessful</h1>
+            <p>Unsuccessful</p>
           </div>
           <div className="error-info">
             <p>
@@ -27,7 +27,7 @@ const Success = () => {
           </div>
         </section>
       </div>
-      <div className="btnDiv">
+      <div className="btnDiv btnError">
         <button className="btn">
           <IoIosArrowForward className="btnIcon" />
           <h2>Retry Payment</h2>

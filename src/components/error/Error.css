@@ -1,61 +1,108 @@
-.errorContainer {
-    height: 100%;
+/* MEDIA QUERY FOR SMALL SCREENS*/
+@media screen and (max-width: 600px) {
+    .errorContainer {
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .error {
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+
+    .error-heading {
+        height: 45px;
+        font-weight: 400;
+        font-size: 30px;
+        color: #E03F3F
+    }
+
+    .error-info {
+        font-weight: 400;
+        font-size: 14px;
+        color: #585858;
+        margin-bottom: 100%;
+    }
+
 }
 
-.error {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 200px;
+/* MEDIA QUERY FOR MEDIUM DEVICES */
+@media screen and (min-width: 601px) and (max-width: 1024px){
+    .errorContainer {
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 343px;
+            margin: 0px auto;
+        }
+    
+        .error {
+            margin-top: 50px;
+            margin-bottom: 150px;
+        }
+    
+        .error-heading {
+            height: 45px;
+            font-weight: 400;
+            font-size: 30px;
+            color: #E03F3F
+        }
+    
+        .error-info {
+            font-weight: 400;
+            font-size: 14px;
+            color: #585858;
+        }
+
+        .btn{
+            width: 343px;
+        }
+
+        .btnError{
+            margin-top: 10rem;
+        }
 }
 
 
+/* MEDIA QUERIES (BIG DEVIVES) */
+@media screen and (min-width: 1025px){
+    .errorContainer {
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 343px;
+            margin: 0px auto;
+        }
+    
+        .error {
+            margin-top: 50px;
+            margin-bottom: 150px;
+        }
+    
+        .error-heading {
+            height: 45px;
+            font-weight: 400;
+            font-size: 30px;
+            color: #E03F3F
+        }
+    
+        .error-info {
+            font-weight: 400;
+            font-size: 14px;
+            color: #585858;
+        }
 
-.error-info {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    width: 343px;
-    margin-left: 16px;
-}
+        .btn {
+            width: 343px;
+        }
 
-.error-heading {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.error-heading h1 {
-    font-size: 40px;
-    font-weight: 400;
-    color: #E03F3F;}
-
-.errorLogo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-    margin-top: 100px;
-}
-
-
-.btnDiv {
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
-}
-
-.btn h2 {
-    font-size: 14px;
-}
-
-.btnIcon {
-    display: flex;
-    float: right;
-    font-size: 20px;
-    align-content: center;
-    margin-right: 30px;
+        .btnError {
+            margin-top: 10rem;
+        }
 }

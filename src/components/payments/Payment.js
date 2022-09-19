@@ -7,7 +7,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Payment = () => {
   return (
-    <div>
+    <div className="paymentContainer container">
       <div className="topNav">
         <MdArrowBack className="topNav-back" />
         <h2 className="topNav-header">Subscription</h2>
@@ -17,18 +17,20 @@ const Payment = () => {
         <img src={fav} alt="" />
       </div>
 
-      <div className="infoContainer container">
+      <div className="infoContainer">
         <section className="info">
-          <div>
-            <h3 className="infoHeader">Premium Plan</h3>
-            <h3>randomuser@gmail.com</h3>
+          <div className="infoHeader">
+            <p>Premium Plan</p>
+            <p className="infoHeader-email">randomuser@gmail.com</p>
           </div>
           <div className="infoPrice">
-            <h5>₦ 5,000</h5>
+            <p>₦ 5,000</p>
           </div>
-          <div>
-            <p>This will cost N5000 per week, there will be</p>
-            <p>unlimited video and chat session feature</p>
+          <div className="infoDetails">
+            <p>
+              This will cost N5000 per week, there will be unlimited video and
+              chat session feature
+            </p>
           </div>
 
           <ul className="infoList">
@@ -51,8 +53,9 @@ const Payment = () => {
           </ul>
         </section>
       </div>
+
       <div className="btnDiv">
-        <button className="btn">
+        <button className="btn btnPayment">
           <IoIosArrowForward className="btnIcon" />
           <h2>Get Started Today</h2>
         </button>
