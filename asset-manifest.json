@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Blue-Room/static/css/main.06022557.css",
-    "main.js": "/Blue-Room/static/js/main.f30c6b7a.js",
+    "main.js": "/Blue-Room/static/js/main.3b089bab.js",
     "static/media/favicon 2.svg": "/Blue-Room/static/media/favicon 2.2d705c1a1a6722ac84b372d16e0bcfaa.svg",
     "static/media/icon-park_unsuccess.svg": "/Blue-Room/static/media/icon-park_unsuccess.707d3552ad5c0ca94df7b38769286325.svg",
     "static/media/icon-park_success.svg": "/Blue-Room/static/media/icon-park_success.eccd3d37c98811ff3f9c78e9c2863822.svg",
     "index.html": "/Blue-Room/index.html",
     "main.06022557.css.map": "/Blue-Room/static/css/main.06022557.css.map",
-    "main.f30c6b7a.js.map": "/Blue-Room/static/js/main.f30c6b7a.js.map"
+    "main.3b089bab.js.map": "/Blue-Room/static/js/main.3b089bab.js.map"
   },
   "entrypoints": [
     "static/css/main.06022557.css",
-    "static/js/main.f30c6b7a.js"
+    "static/js/main.3b089bab.js"
   ]
 }
